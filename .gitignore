@@ -1,0 +1,76 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Airflow
+airflow.cfg
+unittests.cfg
+webserver_config.py
+# Logs
+logs/
+*.log
+# Database
+*.db
+*.sqlite
+
+# Docker
+# Ignore Docker files that might include sensitive information or are not needed
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignore Docker and Docker Compose artifacts
+**/Dockerfile
+docker-compose.yml
+docker-compose.yaml
+# Ignore build directories
+build/
+tmp/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# Archives
+*.tar
+*.zip
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+*.tgz
+*.txz
