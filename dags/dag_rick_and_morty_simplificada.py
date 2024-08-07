@@ -6,21 +6,23 @@ import json
 import pandas as pd
 import logging
 
+BASE_URL = "https://rickandmortyapi.com/api/"
+
 # Função para extrair dados da API e salvar em arquivos JSON
 def extract_and_save():
-    base_url = "https://rickandmortyapi.com/api/"
+
     endpoints = ["character", "location", "episode"]
     
     # Configuração de logging
     logging.info("Iniciando a extração dos dados da API Rick and Morty")
 
     for endpoint in endpoints:
-        url = f"{base_url}{endpoint}"
+        url = f"{BASE_URL}{endpoint}"
         response = requests.get(url)
         
         if response.status_code == 200:
             data = response.json()
-            with open(f'/opt/airflow/data/{endpoint}.json', 'w') as f:
+            with open(f'/home/thyall/datalake-airflow/bronze/{endpoint}.json', 'w') as f:
                 json.dump(data, f)
             logging.info(f"Dados do endpoint {endpoint} salvos com sucesso.")
         else:
@@ -32,11 +34,13 @@ def read_and_print():
     
     for endpoint in endpoints:
         try:
-            with open(f'/opt/airflow/data/{endpoint}.json', 'r') as f:
+            with open(f'/home/thyall/datalake-airflow/bronze/{endpoint}.json', 'r') as f:
                 data = json.load(f)
                 df = pd.json_normalize(data['results'])
                 logging.info(f"Primeiros registros do endpoint {endpoint}:")
+                print(f"Primeiros registros do endpoint {endpoint}:")
                 logging.info(df.head())
+                print(df.head())
         except FileNotFoundError:
             logging.warning(f"Arquivo JSON para o endpoint {endpoint} não encontrado.")
 
