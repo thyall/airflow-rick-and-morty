@@ -7968,3 +7968,46 @@ File Path                                               PID  Runtime      # DAGs
 [2024-08-07T22:26:47.475+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
 [2024-08-07T22:26:47.477+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
 [2024-08-07T22:26:53.504+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-07T22:34:47.199+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-07T22:34:47.199+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-07T22:34:47.200+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-07T22:34:47.200+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-07T22:34:47.202+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-07T22:34:47.363+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py     47  0.10s             0           0
+/opt/airflow/dags/dag_tutorial.py                        48  0.09s             0           0
+================================================================================
+[2024-08-07T22:35:17.557+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  10.41s          2024-08-07T22:34:57
+/opt/airflow/dags/dag_tutorial.py                                              1           0  2.66s           2024-08-07T22:34:49
+================================================================================
+[2024-08-07T22:35:47.798+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.05s           2024-08-07T22:35:28
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.13s           2024-08-07T22:35:20
+================================================================================
+[2024-08-07T22:38:12.706+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 66 started at 2024-08-07T22:35:58.904313+00:00 has timed out, killing it.
+[2024-08-07T22:38:23.007+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  133.56s         2024-08-07T22:38:12
+/opt/airflow/dags/dag_tutorial.py                        67  0.04s             1           0  1.52s           2024-08-07T22:35:54
+================================================================================
+[2024-08-07T22:38:26.170+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
