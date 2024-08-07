@@ -95,7 +95,7 @@ dag = DAG(
 fetch_characters_task = PythonOperator(
     task_id='fetch_characters',
     python_callable=fetch_characters,
-    op_kwargs={'save': True},  # Ajuste para salvar dados. Use 'False' para apenas imprimir.
+    op_kwargs={'save': False},  # Ajuste para salvar dados. Use 'False' para apenas imprimir.
     provide_context=True,
     dag=dag,
 )
@@ -110,7 +110,7 @@ branch_characters_task = BranchPythonOperator(
 fetch_episodes_task = PythonOperator(
     task_id='fetch_episodes',
     python_callable=fetch_episodes,
-    op_kwargs={'save': True},  # Ajuste para salvar dados. Use 'False' para apenas imprimir.
+    op_kwargs={'save': False},  # Ajuste para salvar dados. Use 'False' para apenas imprimir.
     provide_context=True,
     dag=dag,
 )
@@ -151,6 +151,8 @@ dummy_no_data = DummyOperator(
 # Definindo a ordem de execução das tasks
 fetch_characters_task >> branch_characters_task >> [dummy_has_data, dummy_no_data]
 branch_characters_task >> fetch_episodes_task
+
 fetch_episodes_task >> branch_episodes_task >> [dummy_has_data, dummy_no_data]
 branch_episodes_task >> fetch_locations_task
+
 fetch_locations_task >> branch_locations_task >> [dummy_has_data, dummy_no_data]

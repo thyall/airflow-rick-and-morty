@@ -207,3 +207,334 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 (Background on this error at: https://sqlalche.me/e/14/e3q8)
 [2024-08-02T15:44:34.609+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/dag_tutorial.py
 [2024-08-02T15:44:34.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:29:07.354+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:29:07.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:29:07.368+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:29:07.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:29:07.820+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:29:07.976+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:29:09.487+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:29:09.487+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:29:10.084+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:29:10.084+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:29:10.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 2.843 seconds
+[2024-08-02T18:29:40.716+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:29:40.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:29:40.720+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:29:40.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:29:40.740+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:29:40.745+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:29:40.780+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:29:40.779+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:29:40.807+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:29:40.807+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:29:40.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.127 seconds
+[2024-08-02T18:30:11.387+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:30:11.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:30:11.390+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:30:11.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:30:11.403+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:30:11.405+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:30:11.433+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:30:11.433+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:30:11.457+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:30:11.457+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:30:11.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.097 seconds
+[2024-08-02T18:30:42.156+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:30:42.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:30:42.160+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:30:42.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:30:42.168+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:30:42.170+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:30:42.190+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:30:42.190+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:30:42.211+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:30:42.211+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:30:42.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.079 seconds
+[2024-08-02T18:31:13.004+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:31:13.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:31:13.006+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:31:13.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:31:13.016+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:31:13.018+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:31:13.039+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:31:13.039+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:31:13.061+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:31:13.061+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:31:13.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.081 seconds
+[2024-08-02T18:31:43.630+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:31:43.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:31:43.633+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:31:43.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:31:43.646+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:31:43.649+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:31:43.687+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:31:43.687+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:31:43.717+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:31:43.717+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:31:43.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.120 seconds
+[2024-08-02T18:32:14.284+0000] {processor.py:161} INFO - Started process (PID=401) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:32:14.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:32:14.287+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:32:14.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:32:14.295+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:32:14.297+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:32:14.319+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:32:14.319+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:32:14.343+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:32:14.342+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:32:14.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.086 seconds
+[2024-08-02T18:32:45.030+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:32:45.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:32:45.035+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:32:45.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:32:45.045+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:32:45.048+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:32:45.104+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:32:45.104+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:32:45.131+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:32:45.130+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:32:45.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.129 seconds
+[2024-08-02T18:33:15.977+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:33:15.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:33:15.991+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:33:15.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:33:17.074+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:33:30.949+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:34:28.963+0000] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 859, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 895, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 664, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 443, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 677, in _sync_to_db
+    _serialize_dag_capturing_errors(dag, session, processor_subdir)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 642, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/serialized_dag.py", line 158, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-08-02T18:36:17.003+0000] {processor.py:161} INFO - Started process (PID=578) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:36:17.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:36:17.030+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:36:17.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:36:17.178+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:36:17.181+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:36:18.630+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:36:18.613+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:36:18.827+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:36:18.820+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:36:18.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 1.977 seconds
+[2024-08-02T18:38:22.842+0000] {processor.py:161} INFO - Started process (PID=622) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:38:22.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:38:22.851+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:38:22.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:38:22.885+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:38:22.889+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:38:24.039+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:38:24.032+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:38:24.136+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:38:24.134+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:38:24.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 1.340 seconds
+[2024-08-02T18:39:09.252+0000] {processor.py:161} INFO - Started process (PID=674) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:39:09.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:39:09.574+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:39:09.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:39:09.959+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:39:09.965+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:39:11.488+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:39:11.487+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:39:11.779+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:39:11.779+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:39:11.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 4.108 seconds
+[2024-08-02T18:45:08.262+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:45:08.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:45:08.265+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:45:08.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:45:08.278+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:45:08.285+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:45:08.450+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:45:08.450+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:45:08.468+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:45:08.468+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:45:08.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.229 seconds
+[2024-08-02T18:45:38.921+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:45:38.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:45:38.924+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:45:38.924+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:45:38.938+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:45:38.940+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:45:38.965+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:45:38.965+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:45:39.007+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:45:39.006+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:45:39.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.119 seconds
+[2024-08-02T18:46:09.097+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:46:09.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:46:09.100+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:46:09.099+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:46:09.109+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:46:09.114+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:46:09.145+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:46:09.145+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:46:09.178+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:46:09.178+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:46:09.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.118 seconds
+[2024-08-02T18:46:39.636+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:46:39.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:46:39.638+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:46:39.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:46:39.647+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:46:39.649+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:46:39.670+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:46:39.670+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:46:39.690+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:46:39.690+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:46:39.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.078 seconds
+[2024-08-02T18:48:34.651+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:48:34.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:48:34.700+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:48:34.700+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:48:34.715+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:48:34.724+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:48:35.692+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:48:35.691+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:48:35.916+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:48:35.916+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:48:36.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 1.540 seconds
+[2024-08-02T18:49:06.514+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:49:06.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:49:06.517+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:49:06.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:49:06.527+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:49:06.529+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:49:06.549+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:49:06.549+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:49:06.573+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:49:06.573+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:49:06.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.084 seconds
+[2024-08-02T18:49:36.946+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:49:36.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_tutorial.py for tasks to queue
+[2024-08-02T18:49:36.992+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:49:36.992+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:49:37.029+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-08-02T18:49:37.032+0000] {processor.py:840} INFO - DAG(s) 'rick_and_morty_dag' retrieved from /opt/airflow/dags/dag_tutorial.py
+[2024-08-02T18:49:37.184+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:49:37.184+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-02T18:49:37.255+0000] {logging_mixin.py:188} INFO - [2024-08-02T18:49:37.255+0000] {dag.py:3947} INFO - Setting next_dagrun for rick_and_morty_dag to 2024-08-01 00:00:00+00:00, run_after=2024-08-02 00:00:00+00:00
+[2024-08-02T18:49:37.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_tutorial.py took 0.389 seconds
