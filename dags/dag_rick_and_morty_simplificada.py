@@ -5,14 +5,20 @@ import requests
 import json
 import pandas as pd
 import logging
+import os
 
+# Caminho dentro do container Docker
+OUTPUT_DIR = '/opt/airflow/data/'
 BASE_URL = "https://rickandmortyapi.com/api/"
 
 # Função para extrair dados da API e salvar em arquivos JSON
 def extract_and_save():
 
     endpoints = ["character", "location", "episode"]
-    
+
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
+
     # Configuração de logging
     logging.info("Iniciando a extração dos dados da API Rick and Morty")
 
@@ -22,7 +28,8 @@ def extract_and_save():
         
         if response.status_code == 200:
             data = response.json()
-            with open(f'/home/thyall/datalake-airflow/bronze/{endpoint}.json', 'w') as f:
+            print(data)
+            with open(f'{OUTPUT_DIR}{endpoint}.json', 'w') as f:
                 json.dump(data, f)
             logging.info(f"Dados do endpoint {endpoint} salvos com sucesso.")
         else:
@@ -34,7 +41,7 @@ def read_and_print():
     
     for endpoint in endpoints:
         try:
-            with open(f'/home/thyall/datalake-airflow/bronze/{endpoint}.json', 'r') as f:
+            with open(f'{OUTPUT_DIR}{endpoint}.json', 'r') as f:
                 data = json.load(f)
                 df = pd.json_normalize(data['results'])
                 logging.info(f"Primeiros registros do endpoint {endpoint}:")

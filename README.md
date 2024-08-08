@@ -68,6 +68,7 @@ Apache Airflow é uma plataforma de código aberto para criar, agendar e monitor
 
 ## Passo a Passo para Instalação
 ### Requisitos
+- Ambiente Linux (ou WSL2)
 - Docker e Docker Compose instalados.
 - Python e ambiente virtual configurados.
 
@@ -102,6 +103,10 @@ Execute a DAG manualmente clicando no botão "Trigger DAG".
 2. Desligar containers:
    ```bash
    docker-compose down
+   ```
+2. Analisar containers:
+   ```bash
+   docker ps
    ```
 
 4. Ver logs de um container:

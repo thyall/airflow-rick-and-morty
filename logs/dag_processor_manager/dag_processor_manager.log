@@ -8011,3 +8011,641 @@ File Path                                               PID  Runtime      # DAGs
 /opt/airflow/dags/dag_tutorial.py                        67  0.04s             1           0  1.52s           2024-08-07T22:35:54
 ================================================================================
 [2024-08-07T22:38:26.170+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-08T16:51:41.171+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-08T16:51:41.172+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-08T16:51:41.173+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-08T16:51:41.173+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T16:51:41.185+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T16:51:41.527+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py     60  0.20s             0           0
+/opt/airflow/dags/dag_tutorial.py                        61  0.18s             0           0
+================================================================================
+[2024-08-08T16:52:11.649+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  4.56s           2024-08-08T16:51:45
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.80s           2024-08-08T16:51:42
+================================================================================
+[2024-08-08T16:52:41.894+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  4.94s           2024-08-08T16:52:21
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.24s           2024-08-08T16:52:12
+================================================================================
+[2024-08-08T16:53:12.454+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.54s           2024-08-08T16:52:51
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-08-08T16:52:43
+================================================================================
+[2024-08-08T16:53:42.595+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_tutorial.py                                              1           0  2.65s           2024-08-08T16:53:16
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.65s           2024-08-08T16:53:22
+================================================================================
+[2024-08-08T16:54:12.782+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.46s           2024-08-08T16:53:53
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:53:46
+================================================================================
+[2024-08-08T16:54:43.164+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.63s           2024-08-08T16:54:25
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:54:16
+================================================================================
+[2024-08-08T16:55:13.754+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  3.05s           2024-08-08T16:54:58
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-08-08T16:54:46
+================================================================================
+[2024-08-08T16:55:43.948+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.62s           2024-08-08T16:55:29
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:55:16
+================================================================================
+[2024-08-08T16:56:14.140+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.46s           2024-08-08T16:56:00
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:55:47
+================================================================================
+[2024-08-08T16:56:41.324+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T16:56:41.326+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T16:56:44.350+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.48s           2024-08-08T16:56:31
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:56:17
+================================================================================
+[2024-08-08T16:57:14.555+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.46s           2024-08-08T16:57:02
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-08-08T16:56:47
+================================================================================
+[2024-08-08T16:57:44.753+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.47s           2024-08-08T16:57:34
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:57:17
+================================================================================
+[2024-08-08T16:58:14.945+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.48s           2024-08-08T16:58:05
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:57:47
+================================================================================
+[2024-08-08T16:58:45.149+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.47s           2024-08-08T16:58:36
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-08-08T16:58:18
+================================================================================
+[2024-08-08T16:59:15.410+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.46s           2024-08-08T16:59:07
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.17s           2024-08-08T16:58:48
+================================================================================
+[2024-08-08T16:59:45.610+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.48s           2024-08-08T16:59:38
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T16:59:18
+================================================================================
+[2024-08-08T16:59:48.189+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-08T17:35:57.768+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-08T17:35:57.769+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-08T17:35:57.769+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-08T17:35:57.770+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T17:35:57.775+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T17:35:57.893+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py     45  0.06s             0           0
+/opt/airflow/dags/dag_tutorial.py                        46  0.05s             0           0
+================================================================================
+[2024-08-08T17:36:27.983+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  4.69s           2024-08-08T17:36:02
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.71s           2024-08-08T17:35:58
+================================================================================
+[2024-08-08T17:36:58.229+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.93s           2024-08-08T17:36:33
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.25s           2024-08-08T17:36:28
+================================================================================
+[2024-08-08T17:37:28.554+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.74s           2024-08-08T17:37:06
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.22s           2024-08-08T17:36:59
+================================================================================
+[2024-08-08T17:37:59.285+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.40s           2024-08-08T17:37:37
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.16s           2024-08-08T17:37:29
+================================================================================
+[2024-08-08T17:38:29.399+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.16s           2024-08-08T17:38:09
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.17s           2024-08-08T17:38:00
+================================================================================
+[2024-08-08T17:38:59.655+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.01s           2024-08-08T17:38:40
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.15s           2024-08-08T17:38:30
+================================================================================
+[2024-08-08T17:39:29.780+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.10s           2024-08-08T17:39:11
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.15s           2024-08-08T17:39:01
+================================================================================
+[2024-08-08T17:40:00.099+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.16s           2024-08-08T17:39:43
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-08-08T17:39:32
+================================================================================
+[2024-08-08T17:40:30.355+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.14s           2024-08-08T17:40:14
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.15s           2024-08-08T17:40:02
+================================================================================
+[2024-08-08T17:41:10.970+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T17:41:11.023+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T17:41:11.195+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    134  26.77s            1           0  1.14s           2024-08-08T17:40:14
+/opt/airflow/dags/dag_tutorial.py                       136  0.01s             1           0  0.18s           2024-08-08T17:40:32
+================================================================================
+[2024-08-08T17:41:40.327+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 134 started at 2024-08-08T17:40:44.419925+00:00 has timed out, killing it.
+[2024-08-08T17:41:41.314+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  55.91s          2024-08-08T17:41:40
+/opt/airflow/dags/dag_tutorial.py                       136  30.14s            1           0  0.18s           2024-08-08T17:40:32
+================================================================================
+[2024-08-08T17:42:11.492+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    143  1.01s             0           1  55.91s          2024-08-08T17:41:40
+/opt/airflow/dags/dag_tutorial.py                       145  0.01s             1           0  30.28s          2024-08-08T17:41:41
+================================================================================
+[2024-08-08T17:42:41.891+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    152  0.01s             1           0  1.29s           2024-08-08T17:42:11
+/opt/airflow/dags/dag_tutorial.py                       153  0.00s             1           0  0.28s           2024-08-08T17:42:11
+================================================================================
+[2024-08-08T17:43:12.015+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.06s           2024-08-08T17:42:42
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.25s           2024-08-08T17:42:42
+================================================================================
+[2024-08-08T17:43:42.286+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.54s           2024-08-08T17:43:14
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.15s           2024-08-08T17:43:13
+================================================================================
+[2024-08-08T17:44:12.551+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.15s           2024-08-08T17:43:46
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-08-08T17:43:43
+================================================================================
+[2024-08-08T17:44:42.859+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.51s           2024-08-08T17:44:18
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.20s           2024-08-08T17:44:13
+================================================================================
+[2024-08-08T17:45:13.789+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.68s           2024-08-08T17:44:50
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.17s           2024-08-08T17:44:44
+================================================================================
+[2024-08-08T17:47:13.306+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T17:47:13.703+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T17:47:13.743+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_tutorial.py with PID 196 started at 2024-08-08T17:45:14.134794+00:00 has timed out, killing it.
+[2024-08-08T17:47:13.757+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 197 started at 2024-08-08T17:45:22.709448+00:00 has timed out, killing it.
+[2024-08-08T17:47:13.781+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_tutorial.py                                              0           1  119.61s         2024-08-08T17:47:13
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  111.03s         2024-08-08T17:47:13
+================================================================================
+[2024-08-08T18:20:47.195+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-08T18:20:47.196+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-08T18:20:47.196+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-08T18:20:47.197+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T18:20:47.202+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T18:20:47.282+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py     46  0.04s             0           0
+/opt/airflow/dags/dag_tutorial.py                        47  0.03s             0           0
+================================================================================
+[2024-08-08T18:21:17.635+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  2.42s           2024-08-08T18:20:49
+/opt/airflow/dags/dag_tutorial.py                        54  0.02s             1           0  0.16s           2024-08-08T18:20:47
+================================================================================
+[2024-08-08T18:21:27.503+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-08T18:22:36.598+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-08T18:22:36.599+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-08T18:22:36.599+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-08T18:22:36.599+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T18:22:36.601+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T18:22:36.687+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py     46  0.04s             0           0
+/opt/airflow/dags/dag_tutorial.py                        47  0.04s             0           0
+================================================================================
+[2024-08-08T18:23:06.832+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  4.21s           2024-08-08T18:22:40
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.50s           2024-08-08T18:22:37
+================================================================================
+[2024-08-08T18:23:37.467+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  2.26s           2024-08-08T18:23:13
+/opt/airflow/dags/dag_tutorial.py                                              1           0  2.11s           2024-08-08T18:23:10
+================================================================================
+[2024-08-08T18:24:07.727+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.40s           2024-08-08T18:23:44
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-08-08T18:23:40
+================================================================================
+[2024-08-08T18:24:38.097+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.02s           2024-08-08T18:24:16
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.26s           2024-08-08T18:24:11
+================================================================================
+[2024-08-08T18:25:08.223+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.03s           2024-08-08T18:24:47
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.15s           2024-08-08T18:24:41
+================================================================================
+[2024-08-08T18:25:38.356+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.03s           2024-08-08T18:25:18
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-08-08T18:25:12
+================================================================================
+[2024-08-08T18:26:08.486+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.10s           2024-08-08T18:25:49
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-08-08T18:25:42
+================================================================================
+[2024-08-08T18:26:38.665+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.18s           2024-08-08T18:26:20
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.26s           2024-08-08T18:26:12
+================================================================================
+[2024-08-08T18:27:08.954+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.13s           2024-08-08T18:26:52
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.26s           2024-08-08T18:26:43
+================================================================================
+[2024-08-08T18:28:00.559+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T18:28:00.606+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T18:29:42.781+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 138 started at 2024-08-08T18:27:22.121834+00:00 has timed out, killing it.
+[2024-08-08T18:29:42.868+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  140.66s         2024-08-08T18:29:42
+/opt/airflow/dags/dag_tutorial.py                       140  0.01s             1           0  0.15s           2024-08-08T18:27:14
+================================================================================
+[2024-08-08T18:29:50.649+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-08T18:43:46.593+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-08T18:43:46.594+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-08T18:43:46.594+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-08T18:43:46.594+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T18:43:46.595+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2024-08-08T18:45:07.796+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-08T18:49:10.524+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-08T18:49:10.524+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-08T18:49:10.525+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-08T18:49:10.525+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T18:49:10.528+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T18:49:10.622+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py     46  0.05s             0           0
+/opt/airflow/dags/dag_tutorial.py                        47  0.05s             0           0
+================================================================================
+[2024-08-08T18:49:40.706+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  5.36s           2024-08-08T18:49:15
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.39s           2024-08-08T18:49:10
+================================================================================
+[2024-08-08T18:50:10.830+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.75s           2024-08-08T18:49:47
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.20s           2024-08-08T18:49:41
+================================================================================
+[2024-08-08T18:50:41.061+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.88s           2024-08-08T18:50:18
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.22s           2024-08-08T18:50:12
+================================================================================
+[2024-08-08T18:51:11.473+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.98s           2024-08-08T18:50:50
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-08-08T18:50:42
+================================================================================
+[2024-08-08T18:51:41.678+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.96s           2024-08-08T18:51:21
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-08-08T18:51:12
+================================================================================
+[2024-08-08T18:52:11.996+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.38s           2024-08-08T18:51:53
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-08-08T18:51:42
+================================================================================
+[2024-08-08T18:52:42.197+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.61s           2024-08-08T18:52:24
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-08-08T18:52:13
+================================================================================
+[2024-08-08T18:53:12.405+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.64s           2024-08-08T18:52:55
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-08-08T18:52:43
+================================================================================
+[2024-08-08T18:53:42.617+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.19s           2024-08-08T18:53:27
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-08-08T18:53:13
+================================================================================
+[2024-08-08T18:54:11.011+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-08T18:54:11.018+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-08-08T18:54:13.042+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.24s           2024-08-08T18:53:59
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.22s           2024-08-08T18:53:43
+================================================================================
+[2024-08-08T18:54:43.247+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.13s           2024-08-08T18:54:30
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.12s           2024-08-08T18:54:14
+================================================================================
+[2024-08-08T18:55:19.485+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    153  14.81s            1           0  1.13s           2024-08-08T18:54:30
+/opt/airflow/dags/dag_tutorial.py                       155  0.43s             1           0  0.11s           2024-08-08T18:54:44
+================================================================================
+[2024-08-08T18:56:20.949+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 153 started at 2024-08-08T18:55:00.405380+00:00 has timed out, killing it.
+[2024-08-08T18:56:57.677+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_tutorial.py with PID 155 started at 2024-08-08T18:55:14.782661+00:00 has timed out, killing it.
+[2024-08-08T18:56:57.749+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    156  0.02s             0           1  77.03s          2024-08-08T18:56:17
+/opt/airflow/dags/dag_tutorial.py                       157  0.00s             0           1  62.66s          2024-08-08T18:56:17
+================================================================================
+[2024-08-08T18:57:45.377+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    156  47.64s            0           1  77.03s          2024-08-08T18:56:17
+/opt/airflow/dags/dag_tutorial.py                       157  47.63s            0           1  62.66s          2024-08-08T18:56:17
+================================================================================
+[2024-08-08T18:57:47.632+0000] {manager.py:1016} ERROR - Processor for /opt/airflow/dags/dag_tutorial.py exited with return code 1.
+[2024-08-08T18:57:48.710+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 156 started at 2024-08-08T18:56:57.731382+00:00 has timed out, killing it.
+[2024-08-08T18:57:51.484+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
