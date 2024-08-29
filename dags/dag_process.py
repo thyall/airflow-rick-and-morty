@@ -8,7 +8,7 @@ def run_script_in_virtualenv():
     # Utilizando subprocess para rodar o comando no shell
     # A função source ativa o ambiente virtual e, em seguida, o script Python é executado
     subprocess.run(
-        'python /opt/airflow/scripts/seu_script.py',
+        'python /opt/airflow/scripts/texto.py',
         shell=True,  # Necessário para permitir o uso de `source`
         check=True  # Se o comando falhar, uma exceção será lançada
     )
@@ -16,7 +16,7 @@ def run_script_in_virtualenv():
 # Definindo argumentos padrão para a DAG
 default_args = {
     'owner': 'user',  # Proprietário da DAG
-    'start_date': datetime(2024, 8, 22),  # Data de início da DAG
+    'start_date': datetime(2024, 8, 28),  # Data de início da DAG
     'retries': 1,  # Número de tentativas de retry em caso de falha
 }
 
