@@ -1,5 +1,7 @@
 # Airflow Rick and Morty DAG
 
+![Example Image](https://drive.google.com/uc?id=17BbswvJXNtEG6KjMOC4caEu0ItbUgriR)
+
 Este repositório contém DAGs do Airflow que buscam dados da API do Rick and Morty, salva em arquivos JSON, e imprime os dados usando Pandas DataFrame. Tem como intuito servir de modelo de infraestrutura e de criação de DAGs
 
 ## O que é Docker Compose?
@@ -209,7 +211,7 @@ Ler e Imprimir Dados:
 ├── requirements.txt
 └── src
     └── teste.py
-``` 
+```
 
 ## Autor
 Thyall D`greville
