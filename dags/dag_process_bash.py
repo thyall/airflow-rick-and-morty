@@ -27,3 +27,6 @@ run_script_task = BashOperator(
     ),
     dag=dag,
 )
+
+#'source /opt/airflow/scripts/venv/bin/activate && '  # Ativa o ambiente virtual
+# 'python /opt/airflow/scripts/texto.py >> /opt/airflow/logs/seu_script.log 2>&1'  # Executa o script e redireciona os logs

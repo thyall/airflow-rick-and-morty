@@ -124,5 +124,92 @@ Ler e Imprimir Dados:
 - Lê os arquivos JSON salvos.
 - Converte os dados para um DataFrame Pandas e imprime os primeiros registros no terminal.
 
+# Documentação do Projeto `airflow-poc`
+
+## Estrutura Geral do Projeto
+
+### config/
+- **Descrição:** Diretório utilizado para armazenar arquivos de configuração do projeto.
+- **Propósito:** Centraliza as configurações necessárias para a execução do projeto, como arquivos de configuração do Airflow, Docker, ou outros componentes.
+
+### dags/
+- **Descrição:** Diretório onde as DAGs (Directed Acyclic Graphs) do Airflow são armazenadas. As DAGs definem as tarefas e suas dependências.
+- **Principais Arquivos:**
+  - `dag_process.py`, `dag_process_bash.py`, `dag_rick_and_morty_simplificada.py`, `dag_tutorial.py`: Scripts Python que definem as DAGs específicas para diferentes processos.
+- **Propósito:** Organiza e executa os diferentes fluxos de trabalho automatizados no Airflow.
+
+### data/
+- **Descrição:** Diretório utilizado para armazenar dados persistentes que são usados ou gerados pelos processos.
+- **Principais Arquivos:**
+  - `character.json`, `episode.json`, `location.json`: Arquivos JSON que provavelmente contêm dados obtidos de APIs ou outras fontes de dados.
+  - `meu_arquivo.txt`: Arquivo de texto genérico que pode ser usado por algum script ou processo.
+- **Propósito:** Serve como repositório central para os dados que os processos de ETL (Extração, Transformação e Carga) manipulam.
+
+### docker-compose.yaml
+- **Descrição:** Arquivo de configuração do Docker Compose, utilizado para definir e executar múltiplos contêineres Docker.
+- **Propósito:** Facilita a orquestração dos diferentes serviços necessários para o projeto, como o Airflow, PostgreSQL, Redis, etc.
+
+### logs/
+- **Descrição:** Diretório onde os logs das execuções das DAGs e do scheduler do Airflow são armazenados.
+- **Subdiretórios Importantes:**
+  - `dag_id=dag_with_bash_operator_and_logging/`: Contém logs específicos para DAGs que utilizam o operador Bash.
+  - `scheduler/`: Armazena logs relacionados ao scheduler do Airflow.
+  - `dag_processor_manager/`: Logs do gerenciador de processamento de DAGs.
+- **Propósito:** Fornece informações detalhadas sobre a execução das tarefas, útil para depuração e monitoramento.
+
+### opt/airflow/
+- **Descrição:** Diretório utilizado principalmente para salvar dados na pasta `DATA`, com o intuito de replicação ou armazenamento de dados externos.
+- **Propósito:** Centraliza dados que precisam ser replicados ou armazenados externamente, garantindo que estejam disponíveis para processos do Airflow ou outros fins.
+
+### plugins/
+- **Descrição:** Diretório reservado para plugins do Airflow.
+- **Propósito:** Permite a extensão das funcionalidades do Airflow com componentes personalizados.
+
+### src/
+- **Descrição:** Diretório onde são armazenados arquivos e códigos externos que serão executados via Airflow.
+- **Propósito:** Organiza os scripts que serão executados pelo Airflow utilizando PythonOperator ou BashOperator, podendo conter desde arquivos isolados até projetos completos.
+
+## Diretório do projeto (simplificado)
+```plaintext
+├── README.md
+├── config
+├── dags
+│   ├── __pycache__
+│   ├── dag_process.py
+│   ├── dag_process_bash.py
+│   ├── dag_rick_and_morty_simplificada.py
+│   └── dag_tutorial.py
+├── data
+├── docker-compose.yaml
+├── logs
+│   ├── dag_id=dag_with_bash_operator_and_logging
+│   ├── dag_id=rick_and_morty_dag
+│   ├── dag_id=run_python_script_in_virtualenv
+│   ├── dag_id=simplified_rick_and_morty_dag
+│   ├── dag_processor_manager
+│   │   └── dag_processor_manager.log
+│   ├── scheduler
+│   │   ├── 2024-08-01
+│   │   │   └── native_dags
+│   │   │       └── example_dags
+├── opt
+│   └── airflow
+│       ├── config
+│       ├── dags
+│       ├── data
+│       │   ├── character.json
+│       │   ├── episode.json
+│       │   ├── location.json
+│       │   └── meu_arquivo.txt
+│       ├── logs
+│       ├── plugins
+│       └── scripts
+│           └── texto.py
+├── plugins
+├── requirements.txt
+└── src
+    └── teste.py
+``` 
+
 ## Autor
 Thyall D`greville

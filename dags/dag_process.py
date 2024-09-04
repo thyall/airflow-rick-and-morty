@@ -1,37 +1,66 @@
-import subprocess  # Módulo para rodar comandos no sistema
 from airflow import DAG
-from airflow.operators.python import PythonOperator
-from datetime import datetime
+from airflow.operators.python_operator import PythonOperator
+from datetime import datetime, timedelta
+import os
+import logging
 
-# Função que executa o script Python dentro de um ambiente virtual
-def run_script_in_virtualenv():
-    # Utilizando subprocess para rodar o comando no shell
-    # A função source ativa o ambiente virtual e, em seguida, o script Python é executado
-    subprocess.run(
-        'python /opt/airflow/scripts/texto.py',
-        shell=True,  # Necessário para permitir o uso de `source`
-        check=True  # Se o comando falhar, uma exceção será lançada
-    )
+# Configuração básica de logging
+logging.basicConfig(
+    filename='/opt/airflow/logs/logile.log',  # Arquivo onde os logs serão salvos
+    level=logging.INFO,  # Nível do log (INFO, neste caso)
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'  # Formato do log
+)
+logger = logging.getLogger(__name__)  # Obtém um logger para o script
+
+# Definindo a função Python que será executada pela DAG
+def executar_script():
+    try:
+        # Definindo o caminho de saída do arquivo
+        output_dir = '/opt/airflow/data/'
+        output_file = 'resultado.txt'
+        file_path = os.path.join(output_dir, output_file)
+
+        # Garantindo que o diretório de saída exista
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Escrevendo no arquivo
+        with open(file_path, 'w') as file:
+            file.write("Este é o conteúdo do arquivo gerado pelo script Python.")
+        
+        # Logando uma mensagem de sucesso no arquivo e no Airflow
+        logger.info(f"Arquivo gerado com sucesso em: {file_path}")
+        logging.info(f"Arquivo gerado com sucesso em: {file_path}")  # Essa linha envia o log para o Airflow
+    
+    except Exception as e:
+        # Logando uma mensagem de erro no arquivo e no Airflow
+        logger.error(f"Erro ao gerar o arquivo: {e}")
+        logging.error(f"Erro ao gerar o arquivo: {e}")  # Essa linha envia o log para o Airflow
+        raise  # Relevanta a exceção para que a DAG registre a falha
 
 # Definindo argumentos padrão para a DAG
 default_args = {
-    'owner': 'user',  # Proprietário da DAG
-    'start_date': datetime(2024, 8, 28),  # Data de início da DAG
-    'retries': 1,  # Número de tentativas de retry em caso de falha
+    'owner': 'user',
+    'depends_on_past': False,
+    'start_date': datetime(2024, 8, 3),
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
 }
 
 # Criando a DAG
 dag = DAG(
-    'run_python_script_in_virtualenv',  # Nome da DAG
-    default_args=default_args,  # Argumentos padrão
-    schedule_interval=None,  # A DAG não será executada em um intervalo regular (manual)
+    'dag_with_python_operator_and_logging',
+    default_args=default_args,
+    description='DAG para rodar um script Python usando PythonOperator',
+    schedule_interval=timedelta(days=1),
 )
 
-# Tarefa que executa a função Python
-run_python_script = PythonOperator(
-    task_id='run_python_script',  # Identificador único da tarefa
-    python_callable=run_script_in_virtualenv,  # Função Python a ser chamada
-    dag=dag,  # Associa a tarefa à DAG
+# Definindo a tarefa com PythonOperator
+run_script_task = PythonOperator(
+    task_id='run_script_task',
+    python_callable=executar_script,  # Função Python a ser executada
+    dag=dag,
 )
 
-# Definição da DAG com apenas uma tarefa
+# Encadeamento de tarefas, se houver mais tarefas
+# ex: run_script_task >> another_task
+
