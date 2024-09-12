@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 default_args = {
     'owner': 'user',
     'depends_on_past': False,
-    'start_date': datetime(2024, 8, 28),
+    'start_date': datetime(2024, 8, 1),
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
@@ -28,5 +28,5 @@ run_script_task = BashOperator(
     dag=dag,
 )
 
-#'source /opt/airflow/scripts/venv/bin/activate && '  # Ativa o ambiente virtual
-# 'python /opt/airflow/scripts/texto.py >> /opt/airflow/logs/seu_script.log 2>&1'  # Executa o script e redireciona os logs
+# Se precisar de outras tasks, você pode encadeá-las aqui
+# ex: run_script_task >> other_task
