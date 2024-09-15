@@ -23,7 +23,7 @@ dag = DAG(
 run_script_task = BashOperator(
     task_id='run_script_task',
     bash_command=(
-        'python3 /opt/airflow/scripts/texto.py'  # Executa o script e redireciona os logs
+        'python3 /opt/airflow/scripts-dev/texto.py'  # Executa o script e redireciona os logs
     ),
     dag=dag,
 )
