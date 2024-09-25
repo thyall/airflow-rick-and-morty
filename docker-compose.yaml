@@ -80,6 +80,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - /home/thyall/processos/mining-api/campanha/mineracao:/opt/airflow/scripts
     - /home/thyall/processos:/opt/airflow/scripts_dev
+    - /home/thyall/processos/mining-api/:/opt/airflow/enviroments
   user: "root"
   depends_on:
     &airflow-common-depends-on

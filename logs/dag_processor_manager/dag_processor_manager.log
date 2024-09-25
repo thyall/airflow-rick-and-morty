@@ -11008,3 +11008,640 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/dag_subprocess.py                                            1           0  0.09s           2024-09-12T15:54:07
 ================================================================================
 [2024-09-12T15:54:52.348+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-18T15:46:41.350+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-09-18T15:46:41.351+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-09-18T15:46:41.351+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-18T15:46:41.352+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T15:46:41.359+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T15:46:41.459+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_process.py                                               0           0
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           0
+/opt/airflow/dags/dag_process_bash.py                    42  0.05s             0           0
+/opt/airflow/dags/dag_tutorial.py                                              0           0
+/opt/airflow/dags/dag_subprocess.py                                            0           0
+/opt/airflow/dags/dag_processe_crawlerblogs.py           41  0.06s             0           0
+================================================================================
+[2024-09-18T15:46:42.546+0000] {manager.py:1016} ERROR - Processor for /opt/airflow/dags/dag_process.py exited with return code 1.
+[2024-09-18T15:47:11.660+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  2.59s           2024-09-18T15:46:44
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.60s           2024-09-18T15:46:41
+/opt/airflow/dags/dag_process.py                                               0          -1  0.54s           2024-09-18T15:46:42
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.47s           2024-09-18T15:46:41
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.24s           2024-09-18T15:46:42
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.21s           2024-09-18T15:46:42
+================================================================================
+[2024-09-18T15:47:41.911+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.57s           2024-09-18T15:47:15
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.39s           2024-09-18T15:47:13
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.37s           2024-09-18T15:47:13
+/opt/airflow/dags/dag_process.py                                               1           0  0.18s           2024-09-18T15:47:13
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T15:47:13
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.09s           2024-09-18T15:47:13
+================================================================================
+[2024-09-18T15:48:12.699+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.81s           2024-09-18T15:47:47
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.19s           2024-09-18T15:47:43
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.18s           2024-09-18T15:47:43
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.17s           2024-09-18T15:47:43
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T15:47:43
+/opt/airflow/dags/dag_process.py                                               1           0  0.08s           2024-09-18T15:47:43
+================================================================================
+[2024-09-18T15:48:49.240+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    100  31.15s            1           0  0.81s           2024-09-18T15:47:47
+/opt/airflow/dags/dag_process.py                                               1           0  0.24s           2024-09-18T15:48:14
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.16s           2024-09-18T15:48:13
+/opt/airflow/dags/dag_processe_crawlerblogs.py          102  0.02s             1           0  0.16s           2024-09-18T15:48:13
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T15:48:14
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.09s           2024-09-18T15:48:13
+================================================================================
+[2024-09-18T15:49:31.643+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 100 started at 2024-09-18T15:48:18.077602+00:00 has timed out, killing it.
+[2024-09-18T15:49:33.435+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  72.81s          2024-09-18T15:49:30
+/opt/airflow/dags/dag_process.py                                               1           0  0.24s           2024-09-18T15:48:14
+/opt/airflow/dags/dag_process_bash.py                   103  0.01s             1           0  0.16s           2024-09-18T15:48:13
+/opt/airflow/dags/dag_processe_crawlerblogs.py          102  44.22s            1           0  0.16s           2024-09-18T15:48:13
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T15:48:14
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.09s           2024-09-18T15:48:13
+================================================================================
+[2024-09-18T15:50:03.620+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  45.71s          2024-09-18T15:49:34
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.79s           2024-09-18T15:50:02
+/opt/airflow/dags/dag_process_bash.py                                          1           0  1.48s           2024-09-18T15:49:34
+/opt/airflow/dags/dag_subprocess.py                                            1           0  1.14s           2024-09-18T15:49:36
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.79s           2024-09-18T15:49:36
+/opt/airflow/dags/dag_process.py                                               1           0  0.25s           2024-09-18T15:49:35
+================================================================================
+[2024-09-18T15:50:34.339+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    126  1.01s             1           0  1.79s           2024-09-18T15:50:02
+/opt/airflow/dags/dag_process.py                                               1           0  0.17s           2024-09-18T15:50:06
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.12s           2024-09-18T15:50:07
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.10s           2024-09-18T15:50:05
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.09s           2024-09-18T15:50:05
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.08s           2024-09-18T15:50:06
+================================================================================
+[2024-09-18T15:50:42.991+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-18T16:02:30.820+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-09-18T16:02:30.821+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-09-18T16:02:30.821+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-18T16:02:30.822+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T16:02:30.826+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T16:02:30.896+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_process.py                                               0           0
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           0
+/opt/airflow/dags/dag_process_bash.py                    42  0.03s             0           0
+/opt/airflow/dags/dag_tutorial.py                                              0           0
+/opt/airflow/dags/dag_subprocess.py                                            0           0
+/opt/airflow/dags/dag_processe_crawlerblogs.py           41  0.04s             0           0
+================================================================================
+[2024-09-18T16:03:00.951+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  3.55s           2024-09-18T16:02:35
+/opt/airflow/dags/dag_tutorial.py                                              1           0  1.06s           2024-09-18T16:02:32
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.64s           2024-09-18T16:02:31
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.63s           2024-09-18T16:02:31
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.18s           2024-09-18T16:02:31
+/opt/airflow/dags/dag_process.py                                               1           0  0.09s           2024-09-18T16:02:31
+================================================================================
+[2024-09-18T16:03:30.981+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.57s           2024-09-18T16:03:05
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.25s           2024-09-18T16:03:02
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.25s           2024-09-18T16:03:02
+/opt/airflow/dags/dag_process.py                                               1           0  0.23s           2024-09-18T16:03:02
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-09-18T16:03:03
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.09s           2024-09-18T16:03:02
+================================================================================
+[2024-09-18T16:04:01.239+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.43s           2024-09-18T16:03:37
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.15s           2024-09-18T16:03:32
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:03:33
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.09s           2024-09-18T16:03:32
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.09s           2024-09-18T16:03:32
+/opt/airflow/dags/dag_process.py                                               1           0  0.07s           2024-09-18T16:03:32
+================================================================================
+[2024-09-18T16:04:31.679+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.11s           2024-09-18T16:04:08
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.21s           2024-09-18T16:04:03
+/opt/airflow/dags/dag_process.py                                               1           0  0.16s           2024-09-18T16:04:03
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.12s           2024-09-18T16:04:03
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:04:04
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.09s           2024-09-18T16:04:03
+================================================================================
+[2024-09-18T16:05:02.073+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.71s           2024-09-18T16:04:40
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.25s           2024-09-18T16:04:34
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.14s           2024-09-18T16:04:35
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.14s           2024-09-18T16:04:33
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.12s           2024-09-18T16:04:33
+/opt/airflow/dags/dag_process.py                                               1           0  0.10s           2024-09-18T16:04:33
+================================================================================
+[2024-09-18T16:05:32.663+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.35s           2024-09-18T16:05:12
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.27s           2024-09-18T16:05:04
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.26s           2024-09-18T16:05:04
+/opt/airflow/dags/dag_process.py                                               1           0  0.25s           2024-09-18T16:05:04
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.10s           2024-09-18T16:05:04
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:05:05
+================================================================================
+[2024-09-18T16:06:03.281+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.91s           2024-09-18T16:05:45
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.26s           2024-09-18T16:05:35
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.24s           2024-09-18T16:05:34
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.22s           2024-09-18T16:05:34
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:05:36
+/opt/airflow/dags/dag_process.py                                               1           0  0.08s           2024-09-18T16:05:35
+================================================================================
+[2024-09-18T16:06:33.905+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.40s           2024-09-18T16:06:17
+/opt/airflow/dags/dag_process.py                                               1           0  0.30s           2024-09-18T16:06:05
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.22s           2024-09-18T16:06:05
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.22s           2024-09-18T16:06:05
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.11s           2024-09-18T16:06:05
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:06:06
+================================================================================
+[2024-09-18T16:07:15.433+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_subprocess.py                                            1           0  16.87s          2024-09-18T16:06:55
+/opt/airflow/dags/dag_tutorial.py                                              1           0  10.72s          2024-09-18T16:06:55
+/opt/airflow/dags/dag_process.py                                               1           0  5.89s           2024-09-18T16:06:44
+/opt/airflow/dags/dag_processe_crawlerblogs.py          170  0.02s             1           0  2.34s           2024-09-18T16:06:38
+/opt/airflow/dags/dag_process_bash.py                                          1           0  2.32s           2024-09-18T16:06:38
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    168  20.14s            1           0  1.40s           2024-09-18T16:06:17
+================================================================================
+[2024-09-18T16:07:44.782+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T16:12:36.668+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T16:13:34.573+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 168 started at 2024-09-18T16:06:55.285592+00:00 has timed out, killing it.
+[2024-09-18T16:13:34.619+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_processe_crawlerblogs.py with PID 170 started at 2024-09-18T16:07:15.412372+00:00 has timed out, killing it.
+[2024-09-18T16:13:34.647+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  399.29s         2024-09-18T16:13:34
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 0           1  379.16s         2024-09-18T16:13:34
+/opt/airflow/dags/dag_subprocess.py                                            1           0  16.87s          2024-09-18T16:06:55
+/opt/airflow/dags/dag_tutorial.py                                              1           0  10.72s          2024-09-18T16:06:55
+/opt/airflow/dags/dag_process.py                                               1           0  5.89s           2024-09-18T16:06:44
+/opt/airflow/dags/dag_process_bash.py                   171  0.02s             1           0  2.32s           2024-09-18T16:06:38
+================================================================================
+[2024-09-18T16:13:34.752+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T16:13:34.790+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T16:14:05.390+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    200  0.00s             0           1  399.29s         2024-09-18T16:13:34
+/opt/airflow/dags/dag_processe_crawlerblogs.py          199  0.01s             0           1  379.16s         2024-09-18T16:13:34
+/opt/airflow/dags/dag_process_bash.py                                          1           0  19.19s          2024-09-18T16:13:53
+/opt/airflow/dags/dag_subprocess.py                                            1           0  19.02s          2024-09-18T16:13:53
+/opt/airflow/dags/dag_process.py                                               1           0  0.49s           2024-09-18T16:13:54
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.17s           2024-09-18T16:13:54
+================================================================================
+[2024-09-18T16:14:36.068+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  2.27s           2024-09-18T16:14:07
+/opt/airflow/dags/dag_processe_crawlerblogs.py          212  0.01s             1           0  0.67s           2024-09-18T16:14:06
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.37s           2024-09-18T16:14:24
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.23s           2024-09-18T16:14:24
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.12s           2024-09-18T16:14:25
+/opt/airflow/dags/dag_process.py                                               1           0  0.11s           2024-09-18T16:14:24
+================================================================================
+[2024-09-18T16:15:22.512+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    230  0.71s             1           0  1.39s           2024-09-18T16:14:39
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.30s           2024-09-18T16:14:55
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.29s           2024-09-18T16:14:55
+/opt/airflow/dags/dag_processe_crawlerblogs.py          229  0.85s             1           0  0.27s           2024-09-18T16:14:36
+/opt/airflow/dags/dag_process.py                                               1           0  0.24s           2024-09-18T16:14:55
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:14:55
+================================================================================
+[2024-09-18T16:15:52.840+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  6.62s           2024-09-18T16:15:27
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  6.57s           2024-09-18T16:15:27
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.58s           2024-09-18T16:15:27
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.24s           2024-09-18T16:15:27
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.15s           2024-09-18T16:15:27
+/opt/airflow/dags/dag_process.py                                               1           0  0.15s           2024-09-18T16:15:27
+================================================================================
+[2024-09-18T16:16:36.165+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    245  38.03s            1           0  6.57s           2024-09-18T16:15:27
+/opt/airflow/dags/dag_process.py                                               1           0  0.37s           2024-09-18T16:15:58
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.18s           2024-09-18T16:15:58
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.15s           2024-09-18T16:15:58
+/opt/airflow/dags/dag_processe_crawlerblogs.py          254  0.02s             1           0  0.15s           2024-09-18T16:15:58
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.11s           2024-09-18T16:15:58
+================================================================================
+[2024-09-18T16:20:16.037+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T16:21:42.146+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T16:22:13.567+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 245 started at 2024-09-18T16:15:58.135690+00:00 has timed out, killing it.
+[2024-09-18T16:22:13.568+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_processe_crawlerblogs.py with PID 254 started at 2024-09-18T16:16:36.146078+00:00 has timed out, killing it.
+[2024-09-18T16:22:13.601+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  375.43s         2024-09-18T16:22:13
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 0           1  337.42s         2024-09-18T16:22:13
+/opt/airflow/dags/dag_process.py                                               1           0  0.37s           2024-09-18T16:15:58
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.18s           2024-09-18T16:15:58
+/opt/airflow/dags/dag_process_bash.py                   255  0.03s             1           0  0.15s           2024-09-18T16:15:58
+/opt/airflow/dags/dag_subprocess.py                     256  0.00s             1           0  0.11s           2024-09-18T16:15:58
+================================================================================
+[2024-09-18T16:25:08.142+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  375.43s         2024-09-18T16:22:13
+/opt/airflow/dags/dag_processe_crawlerblogs.py          283  0.06s             0           1  337.42s         2024-09-18T16:22:13
+/opt/airflow/dags/dag_subprocess.py                                            1           0  15.51s          2024-09-18T16:22:29
+/opt/airflow/dags/dag_process_bash.py                   284  0.01s             1           0  15.29s          2024-09-18T16:22:28
+/opt/airflow/dags/dag_process.py                                               1           0  0.41s           2024-09-18T16:22:29
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.19s           2024-09-18T16:22:29
+================================================================================
+[2024-09-18T16:25:11.308+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T16:25:11.331+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T16:25:38.432+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.69s           2024-09-18T16:25:11
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  1.52s           2024-09-18T16:25:09
+/opt/airflow/dags/dag_process_bash.py                                          1           0  1.15s           2024-09-18T16:25:09
+/opt/airflow/dags/dag_process.py                                               1           0  0.29s           2024-09-18T16:25:09
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.16s           2024-09-18T16:25:09
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-09-18T16:25:09
+================================================================================
+[2024-09-18T16:26:09.135+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.10s           2024-09-18T16:25:43
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.23s           2024-09-18T16:25:39
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.14s           2024-09-18T16:25:39
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.12s           2024-09-18T16:25:39
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-09-18T16:25:40
+/opt/airflow/dags/dag_process.py                                               1           0  0.08s           2024-09-18T16:25:39
+================================================================================
+[2024-09-18T16:26:19.231+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-18T16:57:44.129+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-09-18T16:57:44.138+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-09-18T16:57:44.138+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-18T16:57:44.139+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T16:57:44.161+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T16:57:44.250+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_process.py                                               0           0
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           0
+/opt/airflow/dags/dag_process_bash.py                    42  0.05s             0           0
+/opt/airflow/dags/dag_tutorial.py                                              0           0
+/opt/airflow/dags/dag_subprocess.py                                            0           0
+/opt/airflow/dags/dag_processe_crawlerblogs.py           41  0.06s             0           0
+================================================================================
+[2024-09-18T16:58:15.017+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  2.32s           2024-09-18T16:57:47
+/opt/airflow/dags/dag_processe_crawlerblogs.py           59  0.01s             1           0  0.37s           2024-09-18T16:57:44
+/opt/airflow/dags/dag_process_bash.py                    60  0.00s             1           0  0.35s           2024-09-18T16:57:44
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.29s           2024-09-18T16:57:45
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.22s           2024-09-18T16:57:44
+/opt/airflow/dags/dag_process.py                                               1           0  0.12s           2024-09-18T16:57:44
+================================================================================
+[2024-09-18T16:58:45.783+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  0.90s           2024-09-18T16:58:18
+/opt/airflow/dags/dag_processe_crawlerblogs.py           72  0.01s             1           0  0.45s           2024-09-18T16:58:15
+/opt/airflow/dags/dag_process_bash.py                    73  0.00s             1           0  0.44s           2024-09-18T16:58:15
+/opt/airflow/dags/dag_process.py                                               1           0  0.20s           2024-09-18T16:58:15
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.11s           2024-09-18T16:58:15
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.10s           2024-09-18T16:58:15
+================================================================================
+[2024-09-18T16:59:16.445+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.13s           2024-09-18T16:58:50
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.25s           2024-09-18T16:58:46
+/opt/airflow/dags/dag_process_bash.py                    86  0.00s             1           0  0.13s           2024-09-18T16:58:45
+/opt/airflow/dags/dag_processe_crawlerblogs.py           85  0.01s             1           0  0.12s           2024-09-18T16:58:45
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:58:46
+/opt/airflow/dags/dag_process.py                                               1           0  0.08s           2024-09-18T16:58:46
+================================================================================
+[2024-09-18T16:59:46.863+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.35s           2024-09-18T16:59:22
+/opt/airflow/dags/dag_processe_crawlerblogs.py          107  0.01s             1           0  0.16s           2024-09-18T16:59:16
+/opt/airflow/dags/dag_process.py                                               1           0  0.14s           2024-09-18T16:59:16
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.09s           2024-09-18T16:59:16
+/opt/airflow/dags/dag_process_bash.py                   108  0.00s             1           0  0.09s           2024-09-18T16:59:16
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.08s           2024-09-18T16:59:16
+================================================================================
+[2024-09-18T17:00:17.410+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.18s           2024-09-18T16:59:53
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.25s           2024-09-18T16:59:47
+/opt/airflow/dags/dag_processe_crawlerblogs.py          120  0.01s             1           0  0.22s           2024-09-18T16:59:47
+/opt/airflow/dags/dag_process_bash.py                   121  0.00s             1           0  0.19s           2024-09-18T16:59:47
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T16:59:47
+/opt/airflow/dags/dag_process.py                                               1           0  0.10s           2024-09-18T16:59:47
+================================================================================
+[2024-09-18T17:00:47.583+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.64s           2024-09-18T17:00:25
+/opt/airflow/dags/dag_process.py                                               1           0  0.23s           2024-09-18T17:00:17
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.20s           2024-09-18T17:00:17
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.19s           2024-09-18T17:00:17
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.11s           2024-09-18T17:00:17
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T17:00:17
+================================================================================
+[2024-09-18T17:01:17.614+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.15s           2024-09-18T17:00:56
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.23s           2024-09-18T17:00:48
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.22s           2024-09-18T17:00:48
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.22s           2024-09-18T17:00:48
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T17:00:48
+/opt/airflow/dags/dag_process.py                                               1           0  0.08s           2024-09-18T17:00:48
+================================================================================
+[2024-09-18T17:01:48.192+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.12s           2024-09-18T17:01:28
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.24s           2024-09-18T17:01:18
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.24s           2024-09-18T17:01:18
+/opt/airflow/dags/dag_process.py                                               1           0  0.24s           2024-09-18T17:01:19
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.10s           2024-09-18T17:01:19
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.09s           2024-09-18T17:01:18
+================================================================================
+[2024-09-18T17:02:18.276+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.53s           2024-09-18T17:02:00
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.37s           2024-09-18T17:01:49
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.20s           2024-09-18T17:01:49
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.17s           2024-09-18T17:01:49
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.09s           2024-09-18T17:01:49
+/opt/airflow/dags/dag_process.py                                               1           0  0.07s           2024-09-18T17:01:49
+================================================================================
+[2024-09-18T17:02:50.575+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T17:02:50.640+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags
+[2024-09-18T17:02:50.828+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.20s           2024-09-18T17:02:31
+/opt/airflow/dags/dag_process.py                                               1           0  0.28s           2024-09-18T17:02:20
+/opt/airflow/dags/dag_processe_crawlerblogs.py          183  0.01s             1           0  0.27s           2024-09-18T17:02:20
+/opt/airflow/dags/dag_process_bash.py                   184  0.00s             1           0  0.26s           2024-09-18T17:02:20
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.13s           2024-09-18T17:02:20
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.12s           2024-09-18T17:02:20
+================================================================================
+[2024-09-18T17:03:21.606+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  24.45s          2024-09-18T17:03:15
+/opt/airflow/dags/dag_process_bash.py                                          1           0  24.39s          2024-09-18T17:03:15
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.20s           2024-09-18T17:02:31
+/opt/airflow/dags/dag_process.py                        186  5.39s             1           0  0.28s           2024-09-18T17:02:20
+/opt/airflow/dags/dag_subprocess.py                     185  6.33s             1           0  0.13s           2024-09-18T17:02:20
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.12s           2024-09-18T17:02:20
+================================================================================
+[2024-09-18T17:03:52.452+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_subprocess.py                                            1           0  26.22s          2024-09-18T17:03:41
+/opt/airflow/dags/dag_process.py                                               1           0  25.08s          2024-09-18T17:03:41
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           1           0  1.93s           2024-09-18T17:03:43
+/opt/airflow/dags/dag_tutorial.py                                              1           0  0.21s           2024-09-18T17:03:41
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.15s           2024-09-18T17:03:45
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.14s           2024-09-18T17:03:45
+================================================================================
+[2024-09-18T17:04:27.184+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py    201  13.19s            1           0  1.93s           2024-09-18T17:03:43
+/opt/airflow/dags/dag_process.py                                               1           0  0.71s           2024-09-18T17:04:12
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.40s           2024-09-18T17:04:11
+/opt/airflow/dags/dag_tutorial.py                       200  15.27s            1           0  0.21s           2024-09-18T17:03:41
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 1           0  0.15s           2024-09-18T17:03:45
+/opt/airflow/dags/dag_process_bash.py                                          1           0  0.14s           2024-09-18T17:03:45
+================================================================================
+[2024-09-18T17:05:04.544+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_tutorial.py with PID 200 started at 2024-09-18T17:04:11.914509+00:00 has timed out, killing it.
+[2024-09-18T17:05:04.633+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_rick_and_morty_simplificada.py with PID 201 started at 2024-09-18T17:04:13.994987+00:00 has timed out, killing it.
+[2024-09-18T17:05:04.787+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_tutorial.py                                              0           1  52.63s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  50.55s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_process.py                                               1           0  0.71s           2024-09-18T17:04:12
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.40s           2024-09-18T17:04:11
+/opt/airflow/dags/dag_processe_crawlerblogs.py          203  0.02s             1           0  0.15s           2024-09-18T17:03:45
+/opt/airflow/dags/dag_process_bash.py                   204  0.00s             1           0  0.14s           2024-09-18T17:03:45
+================================================================================
+[2024-09-18T17:05:38.160+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_tutorial.py                                              0           1  52.63s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  50.55s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_process.py                                               1           0  0.71s           2024-09-18T17:04:12
+/opt/airflow/dags/dag_subprocess.py                                            1           0  0.40s           2024-09-18T17:04:11
+/opt/airflow/dags/dag_processe_crawlerblogs.py          203  33.40s            1           0  0.15s           2024-09-18T17:03:45
+/opt/airflow/dags/dag_process_bash.py                   204  33.38s            1           0  0.14s           2024-09-18T17:03:45
+================================================================================
+[2024-09-18T17:06:53.909+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_processe_crawlerblogs.py with PID 203 started at 2024-09-18T17:05:04.759938+00:00 has timed out, killing it.
+[2024-09-18T17:07:20.906+0000] {manager.py:1203} ERROR - Processor for /opt/airflow/dags/dag_process_bash.py with PID 204 started at 2024-09-18T17:05:04.779706+00:00 has timed out, killing it.
+[2024-09-18T17:07:21.280+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 0           1  105.08s         2024-09-18T17:06:49
+/opt/airflow/dags/dag_process_bash.py                                          0           1  105.06s         2024-09-18T17:06:49
+/opt/airflow/dags/dag_tutorial.py                                              0           1  52.63s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  50.55s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_process.py                        206  0.01s             1           0  0.71s           2024-09-18T17:04:12
+/opt/airflow/dags/dag_subprocess.py                     205  0.02s             1           0  0.40s           2024-09-18T17:04:11
+================================================================================
+[2024-09-18T17:07:59.416+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_processe_crawlerblogs.py                                 0           1  105.08s         2024-09-18T17:06:49
+/opt/airflow/dags/dag_process_bash.py                                          0           1  105.06s         2024-09-18T17:06:49
+/opt/airflow/dags/dag_tutorial.py                                              0           1  52.63s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_rick_and_morty_simplificada.py                           0           1  50.55s          2024-09-18T17:05:04
+/opt/airflow/dags/dag_process.py                        206  38.13s            1           0  0.71s           2024-09-18T17:04:12
+/opt/airflow/dags/dag_subprocess.py                     205  38.15s            1           0  0.40s           2024-09-18T17:04:11
+================================================================================
+[2024-09-18T17:08:34.219+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-09-18T17:08:45.583+0000] {manager.py:740} INFO - There are 6 files in /opt/airflow/dags

@@ -22,9 +22,9 @@ dag = DAG(
 
 # Definindo a tarefa com BashOperator
 activate_venv = BashOperator(
-    task_id='activate_vev',
+    task_id='activate_venv',
     bash_command=(
-        'source .venv/bin/activate'
+        'source /opt/airflow/enviroments/.env/bin/activate'
     ),
     dag=dag,
 )
